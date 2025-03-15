@@ -51,6 +51,7 @@ body{
     text-shadow: 0 0 10px #ff9900,   
                 0 0 20px #ff6600;
     margin: 0;                   /* Remove default margins */
+    
 
 }
 
@@ -61,6 +62,12 @@ body{
     text-shadow: 0 0 10px #ff9900,   
                 0 0 20px #ff6600;
     margin: 40px 0 20px 0;         /* Remove left margin, adjust top margin for spacing */
+    a { color: white; }
+}
+
+#infoText a {
+    text-decoration: none;
+    color: white;
 }
 
 #containerWrapper {
